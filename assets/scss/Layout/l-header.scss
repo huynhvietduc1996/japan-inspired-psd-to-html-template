@@ -1,0 +1,50 @@
+.l-header {
+  width: 100%;
+  position: relative;
+  height: 827px;
+
+  .l-container {
+    max-width: 1178px;
+    width: 100%;
+
+    .c-nav {
+      display: flex;
+      margin-top: 58px;
+      margin-left: auto;
+      margin-right: auto;
+
+      a {
+        color: #ec2539;
+        margin-left: 0;
+        font-size: 3.5rem;
+      }
+
+      .c-nav--right {
+        margin-right: 0;
+        font-size: 20px;
+        margin-top: 9px;
+        color: #ec2539;
+
+        input {
+          border: none;
+          outline: none;
+          background-color: transparent;
+          border-bottom: 1px solid #ec2539;
+          transform: translate(25px, -15px);
+          width: 207px;
+          font-size: 1.7rem;
+        }
+
+        .fa-search {
+          transform: translate(-12px, -17px);
+          font-size: 20px;
+        }
+
+        .fa-shopping-cart {
+          font-size: 2.6rem;
+          transform: translate(0px, -13px);
+        }
+      }
+    }
+  }
+}
